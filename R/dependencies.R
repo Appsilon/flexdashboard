@@ -12,15 +12,6 @@ flexdashboard_dependency <- function(name) {
   system.file("www", name, package = "flexdashboard")
 }
 
-html_dependency_stickytableheaders <- function() {
-  htmlDependency(
-    "stickytableheaders",
-    "0.1.19",
-    src = flexdashboard_dependency("stickytableheaders"),
-    script = "jquery.stickytableheaders.min.js"
-  )
-}
-
 html_dependency_featherlight <- function() {
   htmlDependency(
     "featherlight",
