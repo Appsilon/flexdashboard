@@ -395,9 +395,9 @@ flex_dashboard <- function(fig_width = 6.0,
     extra_dependencies <- append(extra_dependencies, storyboard_dependencies())
 
   # depend on stickytable headers
-  extra_dependencies <- append(extra_dependencies,
-                               list(html_dependency_jquery(),
-                                    html_dependency_stickytableheaders()))
+  # extra_dependencies <- append(extra_dependencies,
+  #                              list(html_dependency_jquery(),
+  #                                   html_dependency_stickytableheaders()))
 
   # depend on font libraries for navbar
   extra_dependencies <- append(extra_dependencies,
